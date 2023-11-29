@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:background="@color/gray_very_light">
+
+            <ImageView
+                    android:id="@+id/gmailIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/gmail"
+                    android:layout_marginLeft="5dp"
+            >
+            </ImageView>
+
+            <TextView
+                    android:id="@+id/materialiTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/app_red"
+                    android:text="Kontakti permes Gmail"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blue_primary"
+        ><!-- This is line below the title -->
+        </View>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="123dp"
+                      android:orientation="vertical"
+        >
+            <TextView
+                    android:id="@+id/email1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="qlirimmurati@gmail.com"
+                    android:textSize="16dp"
+                    android:paddingLeft="30dp"
+                    android:background="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"/>
+
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/orange_primary_dark"
+            ><!-- This is line below the title -->
+            </View>
+
+            <TextView
+                    android:id="@+id/email2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="ermalbaliu11@gmail.com"
+                    android:textSize="16dp"
+                    android:paddingLeft="30dp"
+                    android:background="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"/>
+
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/green_primary_dark"            ><!-- This is line below the title -->
+            </View>
+
+            <TextView
+                    android:id="@+id/email3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="clirimkastrati0@gmail.com"
+                    android:textSize="16dp"
+                    android:paddingLeft="30dp"
+                    android:background="#fff"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blue_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:background="#fff"
+                        android:gravity="end|bottom"
+        >
+            <Button
+                    android:id="@+id/OK_gmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:text="OK"
+                    android:clickable="true"
+                    android:padding="3dp"
+                    android:background="@color/app_red"
+                    android:textStyle="bold"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

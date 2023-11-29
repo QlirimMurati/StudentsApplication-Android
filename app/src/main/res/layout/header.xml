@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:background="@drawable/backgroundgradient"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+>
+
+    <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/menuLogo"/>
+
+
+    <TextView
+            android:id="@+id/userMenu"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+           android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="User:"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="bottom"
+         android:layout_marginBottom="5dp">
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIEK"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applikacion per studente"
+            android:layout_gravity="bottom"
+            android:id="@+id/textView"/>
+</LinearLayout>
+
+</LinearLayout>

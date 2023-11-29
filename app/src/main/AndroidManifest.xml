@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.studentsapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="StudentsApp"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".Web_Page"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity android:name=".Facebook"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Energjetika"
+                android:label="Energjetika"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Telekomunikacioni"
+                android:label="Telekomunikacioni"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Automatika"
+                android:label="Automatika"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Elektronika"
+                android:label="Elektronika"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".DrejtimetMain"
+                android:label="Literatura"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Kompjuterike"
+                android:label="Kompjuterika"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".AboutUs"
+                android:label="About Us"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Njoftime"
+                android:label="Njoftime"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".Syllabusi"
+                android:label="Syllabusi"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".MainActivityHome"
+                android:label="Home"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity android:name=".ResetPassword"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".MainActivitySignUp"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".MainActivityLogin"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

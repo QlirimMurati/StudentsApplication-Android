@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#fff"
+                  android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="45dp"
+                      android:background="#0c84d4"
+                      android:id="@+id/r1"
+                      android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/uploadTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#ffffff"
+                    android:text="Update uploaded!"
+                    android:paddingLeft="40dp"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"/>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="200dp"
+                      android:orientation="vertical">
+
+
+            <EditText
+                    android:id="@+id/nameEdit"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:hint="Edit name"
+                    android:background="#fff"
+                    android:paddingLeft="5dp"
+                    android:drawableLeft="@drawable/emertimiupdate"
+                    android:drawablePadding="15dp"
+                    android:textStyle="normal"
+                    android:gravity="center_vertical"/>
+
+
+            <TextView
+                    android:id="@+id/dateEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:clickable="true"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:hint="Date"
+                    android:background="#fff"
+                    android:paddingLeft="5dp"
+                    android:drawableLeft="@drawable/calendarupdate"
+                    android:drawablePadding="15dp"
+                    android:textStyle="normal"
+                    android:gravity="center_vertical"/>
+
+
+
+            <TextView
+                    android:id="@+id/typeEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:hint="Type"
+                    android:clickable="true"
+                    android:background="#fff"
+                    android:paddingLeft="5dp"
+                    android:drawableLeft="@drawable/typeupdate"
+                    android:drawablePadding="15dp"
+                    android:textStyle="normal"
+                    android:gravity="center_vertical"/>
+
+
+
+            <TextView
+                    android:id="@+id/urlEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:hint="Url"
+                    android:background="#fff"
+                    android:paddingLeft="5dp"
+                    android:drawableLeft="@drawable/urlupdate"
+                    android:drawablePadding="15dp"
+                    android:clickable="true"
+                    android:textStyle="normal"
+                    android:gravity="center_vertical"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="70dp"
+                      android:background="@color/white"
+                      android:gravity="center"
+                      android:orientation="horizontal"
+        >
+
+            <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="156dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/backround_update"
+                    android:text="Update"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

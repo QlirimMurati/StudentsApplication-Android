@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        tools:context=".MainActivityHome"
+        android:background="@drawable/backgroundgradient">
+    <!-- android:background="@drawable/backgroundgradient" -->
+    <!-- android:background="@drawable/leaf" -->
+    <!-- android:background="@drawable/tree" -->
+    <!-- android:background="@drawable/dark" -->
+    <!-- android:background="@drawable/bridge" -->
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/logo"/>
+            <EditText
+                    android:id="@+id/createName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:textColor="#fff"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:hint="Name"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fff"/>
+            <EditText
+                    android:id="@+id/createID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:textColor="#fff"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:hint="Username"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_person_white_24dp"
+                    android:layout_marginTop="25dp"
+            />
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fff"/>
+            <EditText
+                    android:id="@+id/createEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:textColor="#fff"
+                    android:hint="Email"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/email"
+                    android:layout_marginTop="25dp"
+            />
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fff"/>
+            <!-- android:background="#f9d7db" -->
+            <EditText
+                    android:id="@+id/createPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:textColor="#fff"
+                    android:hint="Password"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_lock_white_24dp"
+                    android:layout_marginTop="25dp"
+            />
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fff"/>
+            <EditText
+                    android:id="@+id/createPass1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:drawablePadding="12dp"
+                    android:padding="8dp"
+                    android:textColor="#fff"
+                    android:hint="Confirm Password"
+                    android:textColorHint="#fff"
+                    android:maxLines="1"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_lock_white_24dp"
+                    android:layout_marginTop="25dp"
+            />
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fff"/>
+            <!-- android:background="#f9d7db" -->
+
+
+            <Button
+                    android:layout_width="200dp"
+                    android:id="@+id/btnRegister"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/background_login_two"
+                    android:text="Sign up"
+                    android:textColor="#fff"
+                    android:textAllCaps="false"
+                    android:padding="16dp"
+                    android:clickable="true"
+                    style="@style/Base.TextAppearance.AppCompat.Body1"
+                    android:layout_marginTop="30dp"
+                    android:textSize="18sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

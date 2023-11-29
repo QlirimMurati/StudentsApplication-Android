@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                tools:context=".AboutUs">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="16dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/logo" >
+            </ImageView>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+    <TextView android:layout_width="250dp"
+              android:layout_height="150dp"
+    android:text="FIEKStudents është aplikacion i krijuar në Android Studio, qëllimi kryesor i të cilit është mundësia e gjetjes së materialit të mjaftueshëm për studentët e FIEK-ut."
+            android:layout_gravity="center"
+              android:textStyle="italic"
+              android:textSize="18dp"
+              android:textDirection="firstStrong"
+    />
+</LinearLayout>
+
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blue_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+
+
+            <TextView
+                    android:id="@+id/gmailID"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:background="#fff"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="Na kontaktoni ne gmail "
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/gmail"
+                    android:drawablePadding="15dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+
+
+            <TextView
+                    android:id="@+id/fbID"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#fff"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="Na ndiqni ne facebook"
+                    android:clickable="true"
+                    android:paddingLeft="5dp"
+                    android:drawablePadding="15dp"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/facebook"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/green_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+
+
+            <TextView
+                    android:id="@+id/twitterID"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#fff"
+                    android:textColor="@color/blue_grey_primary_dark"
+                    android:text="Na ndiqni ne twitter"
+                    android:paddingLeft="5dp"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/twitter"
+                    android:drawablePadding="15dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+
+
+            <TextView
+                    android:id="@+id/playStoreID"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#fff"
+                     android:textColor="@color/blue_grey_primary_dark"
+                    android:text="Na vleresoni ne Play Store"
+                    android:paddingLeft="5dp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/play_store"
+                    android:drawablePadding="15dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blue_primary_dark"
+        ><!-- This is line below the title -->
+        </View>
+
+    </LinearLayout>
+
+</RelativeLayout>

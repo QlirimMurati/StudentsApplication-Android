@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="8dp"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+        <ImageView
+                android:id="@+id/imgLiteratura"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="2dp"/>
+
+        <TextView
+                android:id="@+id/txtLiteratura"
+                android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Line 1"
+                 android:textSize="25sp"
+                 android:textColor="@android:color/black"
+                  android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imgLiteratura"/>
+        <TextView
+                android:id="@+id/txtLiteratura1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Line 2"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/txtLiteratura"
+                android:layout_toRightOf="@id/imgLiteratura"
+                android:layout_marginLeft="8dp"
+        />
+        />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
